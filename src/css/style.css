@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.main{
+body{
     width: 960px;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
     background-color: #FFCC80;
 }
