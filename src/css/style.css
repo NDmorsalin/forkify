@@ -4,9 +4,45 @@
 }
 body{
     width: 960px;
+    background-color: #FFCC80;
 }
 .main{
     width: 80%;
     margin: 0 auto;
-    background-color: #FFCC80;
+   
+} 
+.head{
+    background-color: #ddd;
+    overflow: hidden;
+    padding: 15px 10px;
 }
+.logo-area{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.logo-area>a{
+    display: block;
+}
+#logo-img{
+    display: block;
+    width: 80%;
+}
+.input-area{
+    width: 50%;
+    float: left;
+    overflow: hidden; 
+}
+.input-rap{
+    text-align: center;
+}
+.favourite{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+#love{
+    display: block;
+    width:80%;
+    height: auto;
+} 
