@@ -1,82 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     width: 960px;
     background-color: #FFCC80;
 }
-.main{
-    width: 80%;
+
+.main {
+    width: 90%;
     margin: 0 auto;
-   
-} 
-.head{
+}
+
+.head {
     background-color: #ddd;
     overflow: hidden;
     padding: 15px 10px;
 }
-.logo-area{
+
+.logo-area {
     width: 25%;
     float: left;
     overflow: hidden;
 }
-.logo-area>a{
+
+.logo-area>a {
     display: block;
 }
-#logo-img{
+
+#logo-img {
     display: block;
     width: 80%;
 }
-.input-area{
+
+.input-area {
     width: 50%;
     float: left;
-    overflow: hidden;  
+    overflow: hidden;
     text-align: center;
 }
-.input-rap{
+
+.input-rap {
     margin-top: 5px;
     border-radius: 20px;
-    display: inline-block ;
+    display: inline-block;
     overflow: hidden;
     text-align: center;
     background-color: turquoise;
-
 }
-.favourite{
+
+.favourite {
     width: 25%;
     float: left;
     overflow: hidden;
 }
-#love{
+
+#love {
     display: block;
     height: 50px;
-    width:50px;
+    width: 50px;
     margin: 0 auto;
-} 
-#src-box{
+}
+
+#src-box {
     padding: 10px 15px;
     outline: none;
     border: none;
     background-color: transparent;
     color: cornflowerblue;
     border-radius: 20px 0 0 20px;
-
 }
-#sub-btn{
+
+#sub-btn {
     padding: 10px 20px;
     outline: none;
     border: none;
     background-color: coral;
     border-radius: 20px;
-
 }
-.search-result{
 
+.search-result,.my-shopping-list {
+    width: 25%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    float: left;
+    overflow: hidden;
 }
-.view-result{
 
+.view-result {
+    width: 50%;
+    height: 100vh;
+    background-color: lightblue;
+    float: left;
+    overflow: hidden;
 }
-.my-shopping-list{
-    
+
+.my-shopping-list {
+
 }
