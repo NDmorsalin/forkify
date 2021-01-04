@@ -88,7 +88,12 @@ body {
     float: left;
     overflow: hidden;
 }
-
+.search-result>ul>li>.search-result{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+}
 .view-result {
     width: 50%;
     height: 100vh;
