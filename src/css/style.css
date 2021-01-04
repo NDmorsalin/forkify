@@ -4,110 +4,102 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     width: 960px;
     background-color: #FFCC80;
 }
 
-.main {
+header {
     width: 90%;
+    overflow: hidden;
+    background-color: violet;
     margin: 0 auto;
 }
 
-.head {
-    background-color: #ddd;
-    overflow: hidden;
-    padding: 15px 10px;
-}
-
-.logo-area {
+.logo {
     width: 25%;
     float: left;
     overflow: hidden;
+
 }
 
-.logo-area>a {
-    display: block;
-}
-
-#logo-img {
+.logo>a>img {
     display: block;
     width: 80%;
 }
 
 .input-area {
     width: 50%;
-    float: left;
-    overflow: hidden;
     text-align: center;
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
 }
 
-.input-rap {
-    margin-top: 5px;
-    border-radius: 20px;
+.raper {
+    box-sizing: border-box;
     display: inline-block;
-    overflow: hidden;
     text-align: center;
-    background-color: turquoise;
-}
-
-.favourite {
-    width: 25%;
-    float: left;
-    overflow: hidden;
-}
-
-#love {
-    display: block;
-    height: 50px;
-    width: 50px;
-    margin: 0 auto;
-}
-
-#src-box {
-    padding: 10px 15px;
-    outline: none;
-    border: none;
-    background-color: transparent;
-    color: cornflowerblue;
-    border-radius: 20px 0 0 20px;
-}
-
-#sub-btn {
-    padding: 10px 20px;
-    outline: none;
-    border: none;
-    background-color: coral;
+    background-color: cadetblue;
     border-radius: 20px;
 }
 
-.search-result,.my-shopping-list {
+.fav-area {
     width: 25%;
-    height: 100vh;
-    background-color: cornflowerblue;
     float: left;
     overflow: hidden;
 }
-.search-result>ul>li>.search-result{
-  width: 310px;
-  height: 310px;
-  display:block;
-  background-color: red;
-  border-radius: 50%;
-}
-.search-result>ul>li>.search-result>img{
+
+.fav-area>img {
+    width: 50px;
+    height: 50px;
+    float: right;
     display: block;
-    width: 100%;
-    height: 100%;
 }
-.view-result {
-    width: 50%;
-    height: 100vh;
-    background-color: lightblue;
-    float: left;
+#search-fild{
+    outline: none;
+    border: none;
+    padding: 10px ;
+    background-color: transparent;
+}
+#search-btn{
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
     overflow: hidden;
 }
-
-.my-shopping-list {
-
+.serc-result{
+    width: 25%;
+    float: left;
+    height: 100vh;
+    overflow: hidden;
+    background-color: thistle;
+}
+.serc-result ul li{
+    padding: 5px;
+    background-attachment: fixed;
+}
+.serc-result ul li .src-img{
+    width: 45px;
+    height: 45px;
+    float: left;
+    border-radius: 50%;
+    background-color: tomato;
+}
+.serc-result ul li .src-text{
+    float: right;
+    width: 75%;
 }
