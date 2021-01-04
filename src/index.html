@@ -10,96 +10,47 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="head">
-            <div class="logo-area">
-                <a href="#"><img id="logo-img" src="img/logo.png" alt="logo"></a>
-            </div>
-            <div class="input-area">
-                <div class="input-rap">
-                    <input type="search" name="" id="src-box" placeholder="search 100000 foods">
-                    <input type="submit" id="sub-btn" value="search">
-                </div>
-            </div>
-            <div class="favourite"><img id="love" src="img/love.png" alt="loved items"></div>
-
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
         </div>
-        <div class="lower-part">
-            <div class="search-result">
-                <ul>
-                    <li>
-                        <div class="search-img">
-                            <img src="" alt="img">
-                        </div>
-                        <div class="text">
-                            <h3>this is title </h3>
-                            <p>this is description off food</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="search-img">
-                            <img src="" alt="img">
-                        </div>
-                        <div class="text">
-                            <h3>this is title </h3>
-                            <p>this is description off food</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="search-img">
-                            <img src="" alt="img">
-                        </div>
-                        <div class="text">
-                            <h3>this is title </h3>
-                            <p>this is description off food</p>
-                        </div>
-                    </li>
-                </ul>
+        <div class="input-area"><input type="search" name="" id=""><input type="submit" value=""></div>
+        <div class="fav-area"><img src="img/love.png" alt=""></div>
 
-            </div>
-            <div class="view-result">
-                <div class="view-img"></div>
-                <div class="recipe-area">
-                    <div class="time-service-fav">
-                        <div class="time">icon 30 minutes</div>
-                        <div class="service">icon 4 service + -</div>
-                        <div class="fav"></div>
+    </header>
+    <main>
+        <section class="serc-result">
+            <ul>
+                <li>
+                    <div class="src-img"><img src="" alt=""></div>
+                    <div class="src-text">
+                        <h3 class="src-title">search title</h3>
+                        <p class="src-desc">search descreption</p>
                     </div>
-                    <div class="recipe-amount">
-                        <ul>
-                            <li>
-                                <div class="amount">√ 4/3</div>
-                                <div class="recipe">
-                                    see,ejd,dks
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="amount">√ 4/3</div>
-                                <div class="recipe">
-                                    gad,jjd
-                                </div>
-                            </li>
-                            <li>
-                                <div class="amount">√ 4/3</div>
-                                <div class="recipe">
-                                    jshsk,jjs,
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="my-shopping-list">
-                <h2 class="sop-lst-title">My Shopping List</h2>
-                <ul>
-                    <li><select name="" id=""><option value="1">1</option></select></li>
-                </ul>
-
-            </div>
-        </div>
-
-    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="view-result">
+            <div class="view-img"><img src="" alt=""></div>
+            <article class="time-service">
+                <h1 class="food-name">this is food na,e</h1>
+                <span class="time">30 minuts</span> <span class="service">service <span class="plas">+</span><span class="minus">-</span></span>
+            </article>
+            <article class="recipe-view">
+                <div class="indridents"></div>
+                <div class="add-to-card"><button type="submit">add to card</button></div>
+            </article>
+        </section>
+        <section class="my-shopping-list">
+            <h1 class="shopping">my shopping list</h1>
+            <ul>
+                <li class="list-li">
+                    <div class="valu-unit"><input type="text" class="value"><input type="text" class="unite"></div>
+                    <p class="list-name">dash hhg</p>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 
 </html>
